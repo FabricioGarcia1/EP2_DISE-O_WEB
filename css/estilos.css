@@ -1,0 +1,364 @@
+/* styles.css */  /*font-family: "Protest Strike", sans-serif;*/ /*font-family: "Bebas Neue", sans-serif;*/ /*font-family: "Playfair Display", serif;*/
+
+/*font-family: "DM Serif Display", serif;*/  /*font-family: "Arsenal SC", sans-serif;*/  /*font-family: "Moulpali", sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #408d97;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: beige;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #521010;
+    text-decoration: none;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #1965bb;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/DG05.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 690px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid white;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+    font-family: "DM Serif Display", serif;
+    color: rgb(231, 100, 40);
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.77);
+    font-size: 35px;
+    box-shadow: 0 4px 10px rgba(117, 112, 112, 0.871);
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    font-family: "Moulpali", sans-serif;
+    color: rgb(187, 228, 212);
+    margin: 0.5px;
+}
+
+.contenidouno p{
+    width: 100%;
+    margin-bottom: 230px;
+    font-family: "Moulpali", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    background-color: rgba(106, 4, 26, 0.418);
+    box-shadow: 0 4px 10px rgb(37, 37, 36);
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: #2d4568ec;
+    color: rgb(219, 230, 219);
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    border: 2px solid #fbf6f689;
+    box-shadow: 0 4px 10px rgb(47, 45, 45);
+}
+
+.button:hover {
+    background-color: #1a8ec4e3;
+    color: #000000;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+    border: 2px solid #fbf6f689
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/DG07.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #ce0909;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.542);
+    font-family: "Glegoo", serif;
+    margin: 0 2.5px;
+    box-shadow: 0 4px 10px rgba(65, 62, 62, 0.959);
+}
+
+.contenidodos h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 35px;
+    color: #b71717;
+    font-size: 30px;
+    box-shadow: 0 4px 10px rgba(216, 207, 207, 0);
+}
+.figuras a:hover {
+   
+    color: #ffffff;
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #000000;
+    padding: 50px 0;
+    border-radius: 5px;
+     
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: "Spectral SC", serif;
+    word-spacing: 8px;
+  }
+
+  .galeria p {
+    color: #535656;
+    text-align: center;
+    font-size: 17px;
+    line-height:5px ;
+    margin-bottom: 20px;
+    font-family: "Judson", serif;
+    word-spacing: 2px;
+    line-height: 5px;
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 80px;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #5b4b4b;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(173, 168, 168, 0.96);
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #6c6767;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: "Marvel", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #cc1c1c;
+  }
+  .columna .parrafo2 {
+    font-family: "Jomhuria", serif;
+    color: #837e7e;
+    font-size: 32px;
+}
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #620101;
+    color: #f1e7e7;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-family: "IM Fell English", serif;
+    text-transform: uppercase;
+  }
+  
+  .footer p{
+    color: #e3d6d6;
+    margin: 0;
+    font-family: "Almendra", serif;
+    font-size: 20px;
+  }
+  
+  .footer h4{
+    color: #d2b9b9;
+    margin: 0;
+    font-family: "Metal Mania", system-ui;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #cfbaba;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #000000; /* Cambia esto según el color que desees para el hover */
+}
+
